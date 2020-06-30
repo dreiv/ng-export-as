@@ -1,1 +1,7 @@
-<h1>hello world!</h1>
+<a tooltip="I'm a tooltip!!" #tooltip="tooltip">
+  I'm a link
+</a>
+
+<button (click)="tooltip.toggleTooltip()">
+  Toggle tooltip
+</button>
